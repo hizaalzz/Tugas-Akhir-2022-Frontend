@@ -19,13 +19,13 @@
             <ul class="metismenu list-unstyled" id="side-menu">
                 <li class="menu-title">Menu</li>
                 <li>
-                    <a href="calendar.html" class=" waves-effect">
+                    <a href="/dashboardadmin" class=" waves-effect">
                         <i class="mdi mdi-airplay"></i>
                         <span>Dashboard</span>
                     </a>
                 </li>
                 <li>
-                    <a href="calendar.html" class=" waves-effect">
+                    <a href="/penilaian" class=" waves-effect">
                         <i class="mdi mdi-lead-pencil"></i>
                         <span>Hasil Ujian</span>
                     </a>
@@ -38,8 +38,8 @@
                         <span>Master</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="ui-alerts.html"> <i class="mdi mdi-account-star"></i>Data Admin</a></li>
-                        <li><a href="ui-buttons.html"> <i class="mdi mdi-account-tie"></i>Data Guru</a></li>
+                        <li><a href="/dataadmin"> <i class="mdi mdi-account-star"></i>Data Admin</a></li>
+                        <li><a href="/dataguru"> <i class="mdi mdi-account-tie"></i>Data Guru</a></li>
                         <li><a href="ui-cards.html"> <i class="mdi mdi-clipboard-list-outline"></i>Data Jadwal</a></li>
                         <li><a href="ui-carousel.html"> <i class="mdi mdi-google-classroom"></i>Data Kelas</a></li>
                         <li><a href="ui-dropdowns.html"> <i class="mdi mdi-file-tree"></i>Data Level</a></li>
@@ -70,13 +70,7 @@
                         <span>Aktivasi Ujian</span>
                     </a>
                 </li>
-                <li>
-                    <a href="calendar.html" class=" waves-effect">
-                        <i class="mdi mdi-history"></i>
-                        <span>Log Aktifitas</span>
-                    </a>
-                </li>
-
+                
                 <li class="menu-title">Data Manajemen</li>
                 <li>
                     <a href="calendar.html" class=" waves-effect">

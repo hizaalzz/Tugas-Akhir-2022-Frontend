@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title')</title>
-    <link rel="icon" type="image/x-icon" href="{{ asset('/images/favicon.ico') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('/images/favicoon.ico') }}">
     <link rel="stylesheet" href="{{ asset('/css/template.css') }}">
     <link rel="stylesheet" href="{{ asset('/css/optional.css') }}">
     <style>

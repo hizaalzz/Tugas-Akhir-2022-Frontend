@@ -57,12 +57,12 @@
                 </a>
 
                 <a href="index.html" class="logo logo-light">
-                    <span class="logo-sm">
-                        <img src="" alt="" height="30">
-                    </span>
                     <span class="logo-lg">
                         <img src="{{ asset('/images/ujian.png') }}" width="70px" height="60px" alt="" >
                     </span>
+                    {{-- <span class="logo-lg">
+                        <img src="{{ asset('/images/ujian.png') }}" width="70px" height="60px" alt="" >
+                    </span> --}}
                 </a>
             </div>
 

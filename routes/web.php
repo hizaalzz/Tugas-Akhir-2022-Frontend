@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 Route::get('/login', function () {
     return view('auth.admin.login');
@@ -28,3 +28,16 @@ Route::get('/loginsiswa', function () {
 Route::get('/dashboardadmin', function () {
     return view('pages.dashboard');
 });
+
+Route::get('/penilaian', function () {
+    return view('pages.penilaian.index');
+});
+
+Route::get('/dataadmin', function () {
+    return view('pages.admin.index');
+});
+
+Route::get('/dataguru', function () {
+    return view('pages.guru.index');
+});
+
