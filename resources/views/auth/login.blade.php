@@ -14,6 +14,7 @@
             <h1><strong>Selamat Datang</strong></h1>
             <p>Login untuk melanjutkan</p>
         </div>
+
         <div class="pt-4">
             <div class="form-group">
                 <label for="nis">NIS</label>
@@ -29,7 +30,6 @@
                     <strong>Password</strong>
                 </span>
             </div>
-
             <div class="mt-3">
                 <button class="btn btn-primary btn-block waves-effect waves-light" type="submit">Log In</button>
             </div>

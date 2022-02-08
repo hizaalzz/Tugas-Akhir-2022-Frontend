@@ -4,7 +4,6 @@
 <div class="col d-flex align-items-center bg-white">
     <div class="p-4 w-100">
         <a href="/loginsiswa"><i class="mdi mdi-keyboard-backspace"></i> Login Siswa</a>
-
         <div class="bg-white d-flex flex-column pt-4 pb-0">
             <h1><strong>Login Guru</strong></h1>
             <p>Login untuk melanjutkan</p>
@@ -28,7 +27,6 @@
             <div class="mt-3">
                 <button class="btn btn-primary btn-block waves-effect waves-light" type="submit">Log In</button>
             </div>
-
         </div>
     </div>
 </div>

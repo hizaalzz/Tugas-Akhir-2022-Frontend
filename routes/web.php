@@ -41,3 +41,30 @@ Route::get('/dataguru', function () {
     return view('pages.guru.index');
 });
 
+Route::get('/datasiswa', function () {
+    return view('pages.murid.index');
+});
+
+Route::get('/datakelas', function () {
+    return view('pages.kelas.index');
+});
+
+Route::get('/datajadwal', function () {
+    return view('pages.jadwal.index');
+});
+
+Route::get('/datalevel', function () {
+    return view('pages.level.index');
+});
+
+Route::get('/dataruangan', function () {
+    return view('pages.ruangan.index');
+});
+
+Route::get('/matapelajaran', function () {
+    return view('pages.matapelajaran.index');
+});
+
+Route::get('/banksoal', function () {
+    return view('pages.banksoal.index');
+});

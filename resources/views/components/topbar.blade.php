@@ -15,8 +15,7 @@
                                 <input type="text" class="form-control" placeholder="Search ..."
                                     aria-label="Recipient's username">
                                 <div class="input-group-append">
-                                    <button class="btn btn-primary" type="submit"><i
-                                            class="mdi mdi-magnify"></i></button>
+                                    <button class="btn btn-primary" type="submit"><i class="mdi mdi-magnify"></i></button>
                                 </div>
                             </div>
                         </div>
