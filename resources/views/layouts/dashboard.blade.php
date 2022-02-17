@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="{{ asset('/css/datatable.css') }}">
     <link rel="stylesheet" href="{{ asset('/css/optional.css') }}">
     
+     {{-- datatables --}}
+     <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+     <link rel="stylesheet" href="{{ asset('templates/DataTables/media/css/jquery.dataTables.css') }}">
+     <link rel="stylesheet" href="{{ asset('templates/DataTables/media/css/dataTables.bootstrap.css') }}">
     @livewireStyles
 
     @yield('css')
@@ -33,5 +37,10 @@
 
     <script src="{{ asset('/js/app.js') }}"></script>
 
+    {{-- js datatables --}}
+            <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+            <script rel="stylesheet" href="{{ asset('templates/DataTables/media/js/jquery.dataTables.js') }}"></script>
+            <script rel="stylesheet" href="{{ asset('templates/DataTables/media/js/jquery.dataTables.min.js') }}"></script>
+     @stack('script-addon')
 </body>
 </html>
